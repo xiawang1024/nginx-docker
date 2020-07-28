@@ -1,0 +1,83 @@
+2020/05/07 02:39:36 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:23
+2020/05/07 02:40:26 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:23
+2020/05/07 02:40:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:02:00 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:02:17 [error] 7#7: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:02:26 [error] 7#7: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:02:29 [error] 7#7: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:02:31 [error] 7#7: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:02:49 [error] 7#7: *2 open() "/etc/nginx/html/api" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:02:55 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:02:57 [error] 6#6: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:08:20 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:08:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:10:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:10:39 [error] 6#6: *1 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:10:43 [error] 6#6: *1 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:14:14 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:14:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:14:18 [error] 6#6: *1 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:14:21 [error] 6#6: *1 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:14:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:16:24 [error] 6#6: *2 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:16:25 [error] 6#6: *2 open() "/etc/nginx/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/05/07 03:16:25 [error] 6#6: *2 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:16:33 [error] 6#6: *2 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:16:45 [error] 6#6: *2 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:17:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:17:04 [error] 6#6: *2 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:17:10 [error] 6#6: *2 "/etc/nginx/usr/share/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/05/07 03:18:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:18:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:18:49 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/05/07 03:18:55 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/05/07 03:21:32 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:15
+2020/05/07 03:22:10 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:15
+2020/05/07 03:22:32 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:15
+2020/05/07 03:22:32 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:15
+2020/05/07 03:22:44 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:15
+2020/05/07 03:22:49 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:15
+2020/05/07 03:23:17 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:24:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:25:12 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:25:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:26:51 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:27:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:28:00 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:29:45 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:32:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:32:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:33:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:34:21 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:35:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:41:00 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:42:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:42:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:43:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:43:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/05/07 03:44:13 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/06 06:55:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/06 06:55:11 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/06 07:16:23 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/06 07:31:18 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/06 08:30:45 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/10 00:57:30 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/10 03:03:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/10 03:04:17 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/10 03:05:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/10 10:41:59 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/10 10:42:05 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/10 13:34:38 [error] 6#6: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/13 01:26:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/13 01:28:32 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/13 01:29:43 [error] 6#6: *6655 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/14 01:24:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/14 01:24:09 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/14 01:54:36 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/14 02:14:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/14 09:34:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/14 09:37:10 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 08:51:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/20 09:53:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/20 09:53:35 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/07/20 09:54:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored

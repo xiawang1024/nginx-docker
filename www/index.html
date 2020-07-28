@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx reverse proxy</title>
+</head>
+
+<body>
+    <h1>Nginx reverse proxy</h1>
+    <h3>前端跨域nginx代理</h3>
+    <p>示例：</p>
+    <pre>
+    location /api {
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods 'GET, POST, OPTIONS';
+        add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization';
+        # 预检请求处理
+        if ($request_method = OPTIONS) {
+            return 204;
+        }
+        # proxy_set_header   X-Real-IP $remote_addr;
+        # proxy_set_header   Host      $http_host;
+        proxy_pass  http://www.moji.com/mojiweather/forecast.php;  //代理地址
+    }
+    </pre>
+</body>
+
+</html>
