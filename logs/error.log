@@ -1,0 +1,67 @@
+2020/07/15 08:51:16 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:17
+2020/07/15 08:51:32 [emerg] 1#1: unexpected ";" in /etc/nginx/nginx.conf:17
+2020/07/15 08:52:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 08:52:22 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:52:22 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:52:22 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:52:22 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:52:22 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:52:22 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:52:22 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:52:22 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:52:22 [error] 6#6: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 08:54:01 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:54:01 [warn] 6#6: *7 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:54:01 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:54:01 [warn] 6#6: *7 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3001/", host: "localhost:5000"
+2020/07/15 08:54:01 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:54:01 [warn] 6#6: *7 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:54:01 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:54:01 [warn] 6#6: *7 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:5000"
+2020/07/15 08:54:01 [error] 6#6: *7 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 08:54:02 [error] 6#6: *7 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://backend/", host: "localhost:5000"
+2020/07/15 08:54:02 [error] 6#6: *7 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 08:55:44 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:07:18 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:08:38 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:09:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:10:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:10:43 [error] 7#7: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:10:43 [warn] 7#7: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:11:04 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:11:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:11:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:11:59 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:12:14 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:13:28 [error] 6#6: *6 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:13:28 [warn] 6#6: *6 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:13:30 [error] 6#6: *9 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:13:30 [warn] 6#6: *9 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:13:58 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:14:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:14:59 [error] 6#6: *15 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:14:59 [warn] 6#6: *15 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:15:31 [error] 6#6: *15 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3000/", host: "localhost:5000"
+2020/07/15 09:15:31 [warn] 6#6: *15 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3000/", host: "localhost:5000"
+2020/07/15 09:16:04 [error] 6#6: *15 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3001/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:16:04 [warn] 6#6: *15 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3001/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:16:36 [error] 6#6: *15 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:16:36 [warn] 6#6: *15 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:17:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:17:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:18:30 [error] 7#7: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3000/", host: "localhost:5000"
+2020/07/15 09:18:30 [warn] 7#7: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3000/", host: "localhost:5000"
+2020/07/15 09:19:02 [error] 7#7: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:19:02 [warn] 7#7: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:19:34 [error] 7#7: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:19:34 [warn] 7#7: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3000/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:20:06 [error] 7#7: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3001/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:20:06 [warn] 7#7: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.102.142:3001/favicon.ico", host: "localhost:5000", referrer: "http://localhost:5000/"
+2020/07/15 09:38:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:38:45 [error] 6#6: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:38:45 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3001/", host: "localhost:5000"
+2020/07/15 09:39:56 [error] 6#6: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3000/", host: "localhost:5000"
+2020/07/15 09:39:56 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.102.142:3000/", host: "localhost:5000"
+2020/07/15 09:43:56 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 09:43:58 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/15 10:49:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
